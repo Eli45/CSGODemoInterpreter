@@ -9,11 +9,11 @@ DemoInfo::DemoInfo(Match m) : M(m) {
 }
 
 String DemoInfo::AsString() {
-	//TODO:
-	return "";
+    //TODO:
+    return "";
 }
 
 String DemoInfo::AsSimpleString() {
-	//TODO:
-	return "";
+    //TODO:
+    return "";
 }

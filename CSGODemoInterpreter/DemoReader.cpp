@@ -26,7 +26,7 @@ Vector<Round> DemoReader::LoopFileForImportantRounds(Player player, UInt32 requi
 
     //Next we return from those individual scores, each round that the given player argument got > numberOfKillsPerRoundRequired kills.
 
-	return Vector<Round>{};
+    return Vector<Round>{};
 }
 
 DemoInfo DemoReader::GetImportantRounds(DemoArgs dArg)   {
@@ -128,16 +128,16 @@ DemoInfo DemoReader::GetImportantRounds(DemoArgs dArg)   {
         
     }*/
 
-	//TODO:... Jesus Christ almighty.
-	return DemoInfo(
-		Match(
-			HalfPair(
-				Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{}), 
-				Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{})
-			),
-			Vector<HalfPair>{}
-		)
-	);
+    //TODO:... Jesus Christ almighty.
+    return DemoInfo(
+        Match(
+            HalfPair(
+                Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{}), 
+                Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{})
+            ),
+            Vector<HalfPair>{}
+        )
+    );
 }
 
 String DemoReader::FindEvent(Vector<String> v)  {

@@ -36,7 +36,7 @@ namespace HelperMethods {
                 temp += s.at(i);
         }
 
-		return v;
+        return v;
 
     }
 
@@ -48,18 +48,18 @@ namespace HelperMethods {
         return s.str();
     }
 
-	template <typename T> Vector<T> CombineVec(Vector<T> one, Vector<T> two) {
-		Vector<T> ret = {};
+    template <typename T> Vector<T> CombineVec(Vector<T> one, Vector<T> two) {
+        Vector<T> ret = {};
 
-		for (auto i : one)
-			ret.push_back(i);
+        for (auto i : one)
+            ret.push_back(i);
 
-		for (auto i : two)
-			ret.push_back(i);
+        for (auto i : two)
+            ret.push_back(i);
 
-		return ret;
+        return ret;
 
-	}
+    }
 };
 
 #endif

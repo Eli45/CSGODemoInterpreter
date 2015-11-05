@@ -11,7 +11,7 @@ private:
     Match        PlayedMatch;
 
 public:
-	AbstractDemo(int restartsPerWarmup, Match m) : NumberOfRestartsPerWarmup(restartsPerWarmup), PlayedMatch(m) {};
+    AbstractDemo(int restartsPerWarmup, Match m) : NumberOfRestartsPerWarmup(restartsPerWarmup), PlayedMatch(m) {};
 
     //Method in concrete class should use a DemoReader to assist in doing this.
     virtual DemoInfo AnalyzeMatch() = 0;

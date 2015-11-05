@@ -10,7 +10,7 @@ private:
     Match M;
 
 public:
-	DemoInfo(Match m);
+    DemoInfo(Match m);
 
     String AsString();
     String AsSimpleString();

@@ -11,15 +11,15 @@ Match::Match(HalfPair scores, Vector<HalfPair> otScores) : Scores(scores), OTSco
 }
 
 UInt32 Match::GetKillsOf(String playerName) {
-	const Vector<Player> v = this->Scores.GetHalfOne().GetTeamOne().GetPlayers();
-	const Vector<Player> c = this->Scores.GetHalfOne().GetTeamTwo().GetPlayers();
+    const Vector<Player> v = this->Scores.GetHalfOne().GetTeamOne().GetPlayers();
+    const Vector<Player> c = this->Scores.GetHalfOne().GetTeamTwo().GetPlayers();
 
-	for (Player v : HelperMethods::CombineVec(v, c)) {
-		const String name = v.GetName();
-		if (name == playerName)
-			return v.GetKills();
-	}
+    for (Player v : HelperMethods::CombineVec(v, c)) {
+        const String name = v.GetName();
+        if (name == playerName)
+            return v.GetKills();
+    }
 
-	//TODO: throw something here? or just log it?
-	throw(std::runtime_error("Player " + playerName + " not found in match."));
+    //TODO: throw something here? or just log it?
+    throw(std::runtime_error("Player " + playerName + " not found in match."));
 };

@@ -19,12 +19,12 @@ private:
 public:
     KillPair(Player p1, Player p2);
 
-	Inline std::pair<Player, Player> GetPlayers() const { 
-		return std::pair<Player, Player>(this->Killer, this->Killed); 
-	};
+    Inline std::pair<Player, Player> GetPlayers() const { 
+        return std::pair<Player, Player>(this->Killer, this->Killed); 
+    };
 
-	Inline Player GetKiller() const { return this->Killer; };
-	Inline Player GetKilled() const { return this->Killed; };
+    Inline Player GetKiller() const { return this->Killer; };
+    Inline Player GetKilled() const { return this->Killed; };
 
     friend std::ostream& operator<<(std::ostream &strm, const KillPair &a);
 };

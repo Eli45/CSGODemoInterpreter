@@ -7,7 +7,7 @@
 class ESEADemo : AbstractDemo   {
 private:
 public:
-	ESEADemo(Match m) : AbstractDemo(3, m) {};
+    ESEADemo(Match m) : AbstractDemo(3, m) {};
     DemoInfo AnalyzeMatch();
 };
 

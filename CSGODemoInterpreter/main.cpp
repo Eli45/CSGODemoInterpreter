@@ -19,11 +19,11 @@ void RunTests()  {
 }
 
 int main(int argc, char** argv) {
-	RunTests();
+    RunTests();
 }
 
 #else
 int main(int argc, char** argv) {
-	//Normal operations.
+    //Normal operations.
 }
 #endif

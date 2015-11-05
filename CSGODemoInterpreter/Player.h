@@ -10,18 +10,18 @@
 class Player    { 
 private:
     String Name;
-	UInt32 Kills  = 0;
-	UInt32 Deaths = 0;
+    UInt32 Kills  = 0;
+    UInt32 Deaths = 0;
 
 public:
-	Player(const Player& p);
+    Player(const Player& p);
     Player(String name);
-	Inline String GetName()   const { return this->Name;   };
-	Inline UInt32 GetKills()  const { return this->Kills;  };
-	Inline UInt32 GetDeaths() const { return this->Deaths; };
+    Inline String GetName()   const { return this->Name;   };
+    Inline UInt32 GetKills()  const { return this->Kills;  };
+    Inline UInt32 GetDeaths() const { return this->Deaths; };
 
-	Inline UInt32 SetKills(UInt32 kills)   { this->Kills  = kills;  }
-	Inline UInt32 SetDeaths(UInt32 deaths) { this->Deaths = deaths; }
+    Inline UInt32 SetKills(UInt32 kills)   { this->Kills  = kills;  }
+    Inline UInt32 SetDeaths(UInt32 deaths) { this->Deaths = deaths; }
 };
 
 #endif

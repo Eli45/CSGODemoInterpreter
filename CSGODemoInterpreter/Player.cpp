@@ -5,5 +5,5 @@ Player::Player(const Player& p) : Name(p.GetName()), Kills(p.GetKills()), Deaths
 }
 
 Player::Player(String name) {
-	this->Name = name;
+    this->Name = name;
 }

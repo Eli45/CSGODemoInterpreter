@@ -146,9 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Demo.h" />
     <ClInclude Include="DemoArgs.h" />
     <ClInclude Include="DemoException.h" />
@@ -181,6 +178,9 @@
     <ClCompile Include="Round.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Team.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

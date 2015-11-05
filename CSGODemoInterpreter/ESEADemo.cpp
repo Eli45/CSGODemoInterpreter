@@ -2,14 +2,14 @@
 #include "DemoInfo.h"
 
 DemoInfo ESEADemo::AnalyzeMatch() {
-	//TODO:
-	return DemoInfo(
-		Match(
-			HalfPair(
-				Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{}),
-				Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{})
-				),
-			Vector<HalfPair>{}
-	)
-		);
+    //TODO:
+    return DemoInfo(
+        Match(
+            HalfPair(
+                Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{}),
+                Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{})
+                ),
+            Vector<HalfPair>{}
+    )
+        );
 };

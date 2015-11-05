@@ -9,7 +9,7 @@ private:
     Half One;
     Half Two;
 public:
-	HalfPair(const HalfPair& h);
+    HalfPair(const HalfPair& h);
     HalfPair(Half one, Half two);
 
     Inline Half GetHalfOne() const { return One; };
