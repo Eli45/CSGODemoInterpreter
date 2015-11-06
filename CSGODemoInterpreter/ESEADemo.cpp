@@ -10,6 +10,6 @@ DemoInfo ESEADemo::AnalyzeMatch() {
                 Half(Team(Vector<Player>{}), Team(Vector<Player>{}), Vector<KillPair>{})
                 ),
             Vector<HalfPair>{}
-    )
-        );
+        )
+    );
 };

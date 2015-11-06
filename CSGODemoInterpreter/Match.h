@@ -20,8 +20,8 @@ public:
 
     UInt32 GetKillsOf(String playerName);
 
-    Inline HalfPair			GetScores()	  const { return this->Scores;   }
-    Inline Vector<HalfPair> GetOTScores() const { return this->OTScores; }
+    Inline HalfPair         GetScores()     const { return this->Scores;   }
+    Inline Vector<HalfPair> GetOTScores()   const { return this->OTScores; }
 };
 
 

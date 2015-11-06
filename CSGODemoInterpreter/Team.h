@@ -15,10 +15,10 @@ public:
     Team(Vector<Player> v);
     Team(Vector<Player> v, UInt32 scoreT, UInt32 scoreCT);
 
-    Inline UInt32 GetScore()			const { return ScoreT + ScoreCT;}
-    Inline UInt32 GetCTScore()			const { return ScoreCT;			}
-    Inline UInt32 GetTScore()			const { return ScoreT;			}
-    Inline Vector<Player> GetPlayers()	const { return Players;			}
+    Inline UInt32 GetScore()            const { return ScoreT + ScoreCT;}
+    Inline UInt32 GetCTScore()          const { return ScoreCT;         }
+    Inline UInt32 GetTScore()           const { return ScoreT;          }
+    Inline Vector<Player> GetPlayers()  const { return Players;         }
 
     Inline void UpdateTScore(Int32 num);
     Inline void UpdateCTSCore(Int32 num);

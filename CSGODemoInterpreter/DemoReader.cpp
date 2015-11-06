@@ -3,15 +3,16 @@
 #include "Round.h"
 #include "KillPair.h"
 #include "DemoInfo.h"
-#include "HelperMethods.h"
 #include "Match.h"
 #include "HalfPair.h"
 
 #include <fstream>
 
+/* Problem includes. TODO: Fix
+#include "HelperMethods.h"
 using HelperMethods::Split;
 using HelperMethods::StartsWith;
-
+*/
 DemoReader::DemoReader(String file) {
     File = file;
 }
